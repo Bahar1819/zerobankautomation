@@ -1,0 +1,570 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-25T18:48:12.823Z",
+        "line": 4,
+        "name": "Search date range",
+        "description": "",
+        "id": "find-transactions-in-account-activity;search-date-range",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4518300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the user accesses the Find Transactions tab",
+            "match": {
+              "location": "FindTransactionStepDefinitions.the_user_accesses_the_Find_Transactions_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2552500,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user enters date range from \"2012-09-01\" to \"2012-09-06\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012-09-01\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"2012-09-06\"",
+                  "offset": 48
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.the_user_enters_date_range_from_to(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2217200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "click search",
+            "match": {
+              "location": "FindTransactionStepDefinitions.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2276100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "results table should only show transactions date between \"2012-09-01\" to \"2012-09-06\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012-09-01\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"2012-09-06\"",
+                  "offset": 73
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.results_table_should_only_show_transactions_date_between_to(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1740600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the result should be sorted by most recent date",
+            "match": {
+              "location": "FindTransactionStepDefinitions.the_result_should_be_sorted_by_most_recent_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2413000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the user enters date range from \"2012-09-02\" to \"2012-09-06\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012-09-02\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"2012-09-06\"",
+                  "offset": 48
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.the_user_enters_date_range_from_to(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1704100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click search",
+            "match": {
+              "location": "FindTransactionStepDefinitions.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2514700,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "results table should only show transactions date between \"2012-09-02\" to \"2012-09-06\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012-09-02\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"2012-09-06\"",
+                  "offset": 73
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.results_table_should_only_show_transactions_date_between_to(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1708000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the result table should only not contain transaction dated \"2012-09-01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012-09-01\"",
+                  "offset": 59
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.the_result_table_should_only_not_contain_transaction_dated(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@find_transaction"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-25T18:48:13.000Z",
+        "line": 15,
+        "name": "Search description",
+        "description": "",
+        "id": "find-transactions-in-account-activity;search-description",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1381000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "the user accesses the Find Transactions tab",
+            "match": {
+              "location": "FindTransactionStepDefinitions.the_user_accesses_the_Find_Transactions_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1107800,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "the user enters description \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 28
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.the_user_enters_description(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1462500,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "click search",
+            "match": {
+              "location": "FindTransactionStepDefinitions.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 940600,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "results table should only show descriptions containing \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 55
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.results_table_should_only_show_descriptions_containing(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1109800,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "the user enters description \"OFFICE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OFFICE\"",
+                  "offset": 28
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.the_user_enters_description(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1460300,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "click search",
+            "match": {
+              "location": "FindTransactionStepDefinitions.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1239600,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "results table should only show description containing \"OFFICE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OFFICE\"",
+                  "offset": 54
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.results_table_should_only_show_description_containing(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1653900,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "results table should not show descriptions containing \"OFFICE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OFFICE\"",
+                  "offset": 54
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.results_table_should_not_show_descriptions_containing(String)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@find_transaction"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-25T18:48:13.033Z",
+        "line": 25,
+        "name": "Search description case insensitive",
+        "description": "",
+        "id": "find-transactions-in-account-activity;search-description-case-insensitive",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1176200,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "the user accesses the Find Transactions tab",
+            "match": {
+              "location": "FindTransactionStepDefinitions.the_user_accesses_the_Find_Transactions_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 944700,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "the user enters description \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 28
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.the_user_enters_description(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 733900,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "click search",
+            "match": {
+              "location": "FindTransactionStepDefinitions.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1143500,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "results table should only show description containing \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 54
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.results_table_should_only_show_description_containing(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1119400,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "the user enters description \"online\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"online\"",
+                  "offset": 28
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.the_user_enters_description(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1133500,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "click search",
+            "match": {
+              "location": "FindTransactionStepDefinitions.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1122900,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "results table should only show description containing \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 54
+                }
+              ],
+              "location": "FindTransactionStepDefinitions.results_table_should_only_show_description_containing(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@find_transaction"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-25T18:48:13.190Z",
+        "line": 34,
+        "name": "Type",
+        "description": "",
+        "id": "find-transactions-in-account-activity;type",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1574700,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "the user accesses the Find Transactions tab",
+            "match": {
+              "location": "FindTransactionStepDefinitions.the_user_accesses_the_Find_Transactions_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1097200,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "click search",
+            "match": {
+              "location": "FindTransactionStepDefinitions.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37,
+            "name": "results table should show at least one result under Deposit",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 38,
+            "name": "results table should show at least one result under Withdrawal",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "user selects type \"Deposit\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "results table should show at least one result under Deposit",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "results table should show no result under Withdrawal",
+            "match": {},
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "user selects type \"Withdrawal\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43,
+            "name": "results should show at least one result under Withdrawal",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 44,
+            "name": "results table should show no result under Deposit",
+            "match": {},
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@find_transaction"
+          }
+        ]
+      }
+    ],
+    "name": "Find Transactions in Account Activity",
+    "description": "",
+    "id": "find-transactions-in-account-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FindTransactions.feature",
+    "tags": [
+      {
+        "name": "@find_transaction",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
